@@ -1,0 +1,47 @@
+.formDiv{
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form1{
+    height: 200px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: white;
+    padding: 40px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#form1 input{
+    padding: 12px 13px;
+    width: 85%;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#form1 input:focus{
+    border: 1px solid #5227CC;
+    box-shadow: 0px 0px 2px 0px #5227CC;
+}
+
+.loginBtn{
+    padding: 8px 18px;
+    border-radius: 5px;
+    background: #5227CC;
+    color: white;
+    border: none;
+    outline: none;
+    transition: all ease-in-out 0.3s;
+}
+
+.loginBtn:hover{
+    background: #6a40df;
+}

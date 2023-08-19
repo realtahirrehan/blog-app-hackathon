@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    background-color: #5227CC;
+    color: aliceblue;
+}
+
+.light{
+    color: rgb(208, 225, 239);
+    text-decoration: none;
+}
+
+.subHeader{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}

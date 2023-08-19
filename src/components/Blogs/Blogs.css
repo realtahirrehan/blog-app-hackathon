@@ -1,0 +1,27 @@
+.shadow{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+#submitbox2{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: white;
+
+}
+
+
+#submitbox2 input{
+    padding: 8px 6px;
+    width: 95%;
+    border: none;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#submitbox2 input:focus{
+    border: 1px solid #5227CC;
+    box-shadow: 0px 0px 2px 0px #5227CC;
+}
